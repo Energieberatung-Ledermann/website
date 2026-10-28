@@ -201,5 +201,5 @@ h1, h2, h3 { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
 @media (max-width: 560px) { h1 { font-size: 2rem; } h2 { font-size: 1.5rem; } }
 
 /* Portrait */
-.portrait { display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 6px; }
+.portrait { display: block; width: 100%; height: auto; max-width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 6px; }
 @media (max-width: 860px) { .portrait { max-width: 260px; } }
